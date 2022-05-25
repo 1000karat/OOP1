@@ -49,17 +49,15 @@ public class Radio {
     public void volumePlus() { // Увеличение +1 до 10
         if (currentVolume == 10) {
             return;
-        } else {
-            currentVolume++;
         }
+            currentVolume++;
     }
 
     public void volumeMin() { // Уменьшение -1 до 0
         if (currentVolume == 0) {
             return;
-        } else {
-            currentVolume--;
         }
+            currentVolume--;
     }
 
 }
